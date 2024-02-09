@@ -1,0 +1,49 @@
+/* Estilos para el contenedor principal */
+#chat-window {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para el contenedor de mensajes */
+#message-container {
+    height: 200px;
+    overflow-y: scroll;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el área de entrada de texto */
+#input-container {
+    display: flex;
+    align-items: center;
+}
+
+#message-input {
+    flex: 1;
+    margin-right: 10px;
+    resize: none;
+}
+
+/* Estilos para el botón de enviar */
+#send-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para el botón de grabar audio */
+#audio-record-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
